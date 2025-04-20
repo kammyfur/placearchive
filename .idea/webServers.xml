@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d62f756f-4772-4cf7-8c8c-7ed788775e4a" name="Minteck">
+        <fileTransfer accessType="SFTP" host="minteck.org" port="22465" sshConfigId="894d5cf5-e2b1-492f-88f4-51cf9d05aaac" sshConfig="root@minteck.org:22465 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

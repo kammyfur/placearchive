@@ -1,0 +1,15 @@
+# Generic Minteck GitLab CI/CD Checks
+# PHP applications
+image: php:zts-buster
+
+cache:
+  paths:
+    - vendor/
+
+before_script:
+  - apt-get update
+  - apt-get install -y git
+
+test:
+  script:
+    - bash -c '[[ $(find . -name \*.php -exec php -l {} \; | grep -v "No syntax errors") ]] && exit 2 || exit 0'

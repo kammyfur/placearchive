@@ -1,0 +1,121 @@
+@media (prefers-color-scheme: dark) {
+
+    html, body {
+        background: black !important;
+        color: white !important;
+    }
+
+    #statusbar, #tabs, .navbar {
+        background: #222 !important;
+        color: white !important;
+    }
+
+    .tab:not(.tab-active) img {
+        filter: invert(1) !important;
+    }
+
+    .loader {
+        background: rgba(10, 10, 10, .75) !important;
+    }
+
+    .loader img {
+        filter: invert(1) !important;
+    }
+
+    #tabs .tab.tab-active {
+        border-bottom-color: white !important;
+    }
+
+    .list-group-item {
+        background-color: #222 !important;
+    }
+
+    .list-group-item.list-group-item-action:hover {
+        background-color: #252525 !important;
+    }
+
+    .list-group-item.list-group-item-action:active, .list-group-item.list-group-item-action:focus {
+        background-color: #333 !important;
+    }
+
+    .btn-light {
+        background: transparent !important;
+        color: white !important;
+    }
+
+    .dropdown-menu {
+        filter: invert(1) !important;
+    }
+
+    #panes {
+        background: black !important;
+    }
+
+    .list-group-item-action {
+        color: white !important;
+    }
+
+    .modal-content {
+        background-color: #151515 !important;
+    }
+
+    .modal-header button.close {
+        filter: invert(1) !important;
+    }
+
+    .modal-header {
+        border-bottom: 1px solid #222 !important;
+    }
+
+    .modal-footer {
+        border-top: 1px solid #222 !important;
+    }
+
+    #radio-bar {
+        background-color: whitesmoke !important;
+        color: black !important;
+        filter: invert(1) !important;
+    }
+
+    #radio-bar .badge {
+        filter: invert(1) !important;
+    }
+
+    .window-btn {
+        border-color: #333 !important;
+    }
+
+    .window-btn img {
+        filter: invert(1);
+    }
+
+    .window-btn:hover {
+        background: rgba(0, 0, 0, .25);
+    }
+
+    .window-btn:active {
+        background: rgba(0, 0, 0, .5);
+    }
+
+    .progress {
+        background: #151515 !important;
+    }
+
+    .table, .table td, .table tr, .table th {
+        border-color: #151515 !important;
+        color: white;
+    }
+
+    #strike-indicator {
+        filter: invert(1);
+    }
+
+    .badge {
+        filter: contrast(50%) brightness(150%);
+    }
+
+    .nav-link img {
+        filter: contrast(0) brightness(200%);
+    }
+
+}
